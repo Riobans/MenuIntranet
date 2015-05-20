@@ -121,8 +121,8 @@ public class MenuConsultas {
                 System.out.println("El promedio de las notas ingresadas Historia es: " + promedio3);
                 System.out.println();
                     
-//En este punto se evaluara si el promedio de las tres asignaturas del primes semestre son superior a la nota solicitada,
-//la cual es nota 5.de no ser asi se le indicara al alumno que esta reprobado por nota insufuciente.                    
+//En este punto se evaluara si el promedio de las tres asignaturas del primer semestre son superiores a la nota solicitada,
+//la cual es nota 5,0. De no ser asi, se le indicará al alumno que esta reprobado por nota insufuciente.                    
                 
                 promediosemestre1= ((promedio1+promedio2+promedio3)/3);
                                 
@@ -136,7 +136,7 @@ public class MenuConsultas {
                     System.out.println("Usted cumple con con el requisito para aprobar el 1° semestre !Felicitaciones¡");
                 }
         break;           
-// En el segundo semestre se ingresaran las notas  para las asignaturas de ciencias naturales, biologia y quimica.
+// En el segundo semestre se ingresaran las notas  para las asignaturas de Ciencias Naturales, Biología y Química.
         case 2:
                 System.out.print("Ingrese la cantidad de notas para la asignatura de  Ciencias Naturales: ");
                 cantidad = captura.nextInt();
@@ -177,8 +177,8 @@ public class MenuConsultas {
                 System.out.println("El promedio de las notas ingresadas Química es: " + promedio6);
                 System.out.println();
                     
-//En este punto se evaluara si el promedio de las tres asignaturas del primes semestre son superior a la nota solicitada,
-//la cual es nota 5.de no ser asi se le indicara al alumno que esta reprobado por nota insufuciente.                    
+//En este punto se evaluara si el promedio de las tres asignaturas del segundo semestre son superiores a la nota solicitada,
+//la cual es nota 5,0. De no ser asi, se le indicara al alumno que esta reprobado por nota insufuciente.                    
                 
                 promediosemestre2= ((promedio4+promedio5+promedio6)/3);
                                 
