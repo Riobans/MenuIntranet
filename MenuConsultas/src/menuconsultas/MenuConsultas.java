@@ -20,9 +20,12 @@ public class MenuConsultas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-// TODO code application logic here
-     
         
+// Elabore un programa en java que permita a los alumnos de una escuela municipal
+// calcular los promedios con sus notas, el programa debe capturar una cantidad
+// de notas definida por cada asignatura y calcular los promedios uno a la vez.
+// Al final de cada semestre se debe promediar los resultados obtenidos de cada asignatura 
+// para dar un promedio semestral y avisar al alumno si aprobo o no el semestre.    
         
      Scanner captura =new Scanner(System.in);  
 
